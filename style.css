@@ -12,8 +12,8 @@
 }
 body{
     height: 100%;
-   
+   <!-- set up the gradient full scream/ it doesnt repeat -->
      background: radial-gradient(#E8C6A3,#FFE3B3, #FFD7C0);
-   
+   <!-- colors for the radial -->
       background-attachment: fixed;
 }
