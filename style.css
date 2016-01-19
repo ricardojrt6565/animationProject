@@ -10,3 +10,10 @@
 *{
     
 }
+body{
+    height: 100%;
+   
+     background: radial-gradient(#1A3140,#6C9299);
+   
+      background-attachment: fixed;
+}
