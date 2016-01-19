@@ -1,5 +1,5 @@
 .header{
-     box-shadow: 10px 10px 5px #888888
+     box-shadow: 10px 10px 5px black
 }
 .body{
     
@@ -13,7 +13,7 @@
 body{
     height: 100%;
    
-     background: radial-gradient(#1A3140,#6C9299);
+     background: radial-gradient(#E8C6A3,#FFE3B3, #FFD7C0);
    
       background-attachment: fixed;
 }
