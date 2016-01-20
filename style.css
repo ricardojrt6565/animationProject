@@ -6,14 +6,14 @@
    
 }
 #chicken_salad:hover{
-    transform: rotate(7deg) translate(10px);
+    transform: rotate(7deg) translate(-10px);
   
 }
 #lasagna:hover{
     transform: rotate(7deg) translate(10px);
 }
 #tacos:hover{
-    transform: rotate(7deg) translate(10px);
+    transform: rotate(7deg) translate(-10px);
 }
 #nachos:hover{
     transform: rotate(7deg) translate(10px);
