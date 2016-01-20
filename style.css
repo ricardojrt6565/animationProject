@@ -1,22 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 .header{
      box-shadow: 10px 10px 5px #888 ;
 }
+#burger{
+    transition:width 2s, height 2s;
+}
 #burger:hover{
    transform: rotate(7deg) translate(10px);
-   
+width:200px;
+height:200px;
+}
+#chicken_salad{
+    transition:width 2s, height 2s; 
 }
 #chicken_salad:hover{
     transform: rotate(7deg) translate(-10px);
-  
+    width:200px;
+height:200px;
 }
+#lasagna{
+       transition:width 2s, height 2s;
+  }
+
 #lasagna:hover{
     transform: rotate(7deg) translate(10px);
+width:200px;
+height:200px;
+}
+#tacos{
+     transition:width 2s, height 2s;
 }
 #tacos:hover{
     transform: rotate(7deg) translate(-10px);
+width:200px;
+height:200px;
+}
+#nachos{
+     transition:width 2s, height 2s;
 }
 #nachos:hover{
     transform: rotate(7deg) translate(10px);
+ width:200px;
+height:200px;
 }
 body{
     height: 100%;
@@ -24,4 +49,16 @@ body{
      background: radial-gradient(#E8C6A3,#FFE3B3, #FFD7C0);
    /*colors for the radial*/
       background-attachment: fixed;
+}
+#background_change{
+    width: 400px;
+    height: 20px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 6s;
+}
+
+@keyframes example {
+    from {background-color: #ff99ff;}
+    to {background-color: #00ccff;}
 }
