@@ -3,6 +3,7 @@
 }
 #burger{
     transition:width 2s, height 2s;
+    /* moving the image from it original place*/
 }
 
 #burger:hover{
@@ -59,7 +60,7 @@ body{
     height: 20px;
     background-color: red;
     animation-name: color;
-    animation-duration: 4s;
+    animation-duration: 4s; /*time it takes to change color*/
    animation-iteration-count:infinite;
 }
 
