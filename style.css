@@ -54,11 +54,11 @@ body{
     width: 400px;
     height: 20px;
     background-color: red;
-    animation-name: example;
+    animation-name: color;
     animation-duration: 6s;
 }
 
-@keyframes example {
+@keyframes color {
     from {background-color: #ff99ff;}
     to {background-color: #00ccff;}
 }
