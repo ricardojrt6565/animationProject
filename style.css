@@ -4,10 +4,14 @@
 #burger{
     transition:width 2s, height 2s;
 }
+
 #burger:hover{
    transform: rotate(7deg) translate(10px);
 width:200px;
 height:200px;
+}
+#burger_p:hover{
+    opacity:1;
 }
 #chicken_salad{
     transition:width 2s, height 2s; 
@@ -62,4 +66,9 @@ body{
 @keyframes color {
     from {background-color: #ff99ff;}
     to {background-color: #00ccff;}
+}
+
+
+p{
+    opacity:0;
 }
