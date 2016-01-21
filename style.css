@@ -10,9 +10,6 @@
 width:200px;
 height:200px;
 }
-#burger_p:hover{
-    opacity:1;
-}
 #chicken_salad{
     transition:width 2s, height 2s; 
 }
