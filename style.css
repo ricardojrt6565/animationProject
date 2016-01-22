@@ -1,6 +1,13 @@
 .header{
      box-shadow: 10px 10px 5px #888 ;
 }
+
+/*All the code in the bottom is the same burger-nachos
+Each image is being changed from its original place
+then it has a hover feature, when the mouse hovers over it, 
+the image will rotate and translate
+
+*/
 #burger{
     transition:width 2s, height 2s;
     /* moving the image from it original place*/
@@ -44,13 +51,18 @@ height:200px;
  width:200px;
 height:200px;
 }
+
+/*At first we had a lot of complications for the background gradient but we fixed it by
+setting height to 100%, we felt that the radial gradient created the best theme in the website.*/
 body{
     height: 100%;
    /* set up the gradient full scream/ it doesnt repeat*/ 
      background: radial-gradient(#E8C6A3,#FFE3B3, #FFD7C0);
    /*colors for the radial*/
       background-attachment: fixed;
-      
+   
+      /*The Div that I called was the same one that changes the background color, 
+      everything in the div is basically how the div initially starts when user enters site and has animation factors*/
 }
 #background_change{
     width: 400px;
@@ -60,7 +72,8 @@ body{
     animation-duration: 4s; /*time it takes to change color*/
    animation-iteration-count:infinite;
 }
-
+/*Animation works by using keyframes, I named the animation "color"; 
+changed background color from a certain color to a certain color*/
 @keyframes color {
     from {background-color: #ff99ff;}
     to {background-color: #00ccff;}
