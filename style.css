@@ -1,5 +1,8 @@
 .header{
      box-shadow: 10px 10px 5px #888 ;
+      background-image: url(https://vefday.files.wordpress.com/2014/02/pale-blue-page-divider-flowers.png);
+          background-repeat: no-repeat;
+          padding:15px;
 }
 
 /*All the code in the bottom is the same burger-nachos
